@@ -92,7 +92,7 @@
         <img class="logo-new" src="images/F5New.jpg" alt="f5">
     </div>
     <hr class="linebreak1">
-    <section class="form-page">
+    <section>
         <form class="form-fields">
             <div class="form-row">
                 <div class="col-md-3 mb-3">
@@ -197,18 +197,19 @@
     </section>
     <section class="try-services">
         <div class="row">
-            <div class="col-lg-4 col-sm-12">
-                <div class="card">
+            <div class="col-lg-4 col-sm-12 deploy-card-body">
+                <div class="deploy-card">
                     <div class="card-header">
-                        <h3 class="features">Infrastructure-as-Code</h3>
+                        <h3 class="features"><span class="green-clr">Infra</span>-as-<span class="green-clr">Code</span>
+                        </h3>
                     </div>
                     <div class="card-body">
                         <ul>
                             <li class="srv-desc">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1" >
                                     <label class="form-check-label" for="gridCheck1">
-                                        Terraform Plans
+                                        Terraform
                                     </label>
                                 </div>
                             </li>
@@ -216,7 +217,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck2">
                                     <label class="form-check-label" for="gridCheck2">
-                                        Jenkins/Spinnaker Pipeline
+                                        Jenkins/Spinnaker
                                     </label>
                                 </div>
                             </li>
@@ -224,7 +225,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck3">
                                     <label class="form-check-label" for="gridCheck3">
-                                        Ansible Playbooks
+                                        Ansible
                                     </label>
                                 </div>
                             </li>
@@ -232,7 +233,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck4">
                                     <label class="form-check-label" for="gridCheck4">
-                                        VMware/Openstack Instances
+                                        VMware/Openstack
                                     </label>
                                 </div>
                             </li>
@@ -240,7 +241,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck6">
                                     <label class="form-check-label" for="gridCheck6">
-                                        Install & Configure Docker
+                                        Docker & Registry
                                     </label>
                                 </div>
                             </li>
@@ -248,7 +249,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck7">
                                     <label class="form-check-label" for="gridCheck7">
-                                        Install & Configure Kubernetes
+                                        Kubernetes & Istio
                                     </label>
                                 </div>
                             </li>
@@ -256,7 +257,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck8">
                                     <label class="form-check-label" for="gridCheck8">
-                                        Deploy MySql/RabbitMQ Images
+                                        MySQL & RabbitMQ
                                     </label>
                                 </div>
                             </li>
@@ -264,7 +265,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck9">
                                     <label class="form-check-label" for="gridCheck9">
-                                        Build & Package Code
+                                        Maven Builds
                                     </label>
                                 </div>
                             </li>
@@ -272,7 +273,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck10">
                                     <label class="form-check-label" for="gridCheck10">
-                                        Verify Code Quality
+                                        SonarQube, Blackduck, Fortify
                                     </label>
                                 </div>
                             </li>
@@ -280,7 +281,31 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck11">
                                     <label class="form-check-label" for="gridCheck11">
-                                        Deploy SpringBoot Microservices
+                                        VMware Tanzu Kubernetes
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck11">
+                                    <label class="form-check-label" for="gridCheck11">
+                                        Google Anthos Gateway
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck11">
+                                    <label class="form-check-label" for="gridCheck11">
+                                        Microsoft Azure Arc
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck11">
+                                    <label class="form-check-label" for="gridCheck11">
+                                        AWS Outpost
                                     </label>
                                 </div>
                             </li>
@@ -288,80 +313,267 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck12">
                                     <label class="form-check-label" for="gridCheck12">
-                                        Enable Monitoring
+                                        Prometheus & Grafana
                                     </label>
                                 </div>
                             </li>
                         </ul>
                         <div class="button">
-                            <button type="button" class="btn btn-success btn-md" style="margin-top: 30px;">Read
-                                More</button>
+                            <button type="button" class="btn btn-success btn-md" style="margin-top: 30px;">Click-to-Deploy</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-12">
-                <div class="card">
+            <div class="col-lg-4 col-sm-12 deploy-card-body">
+                <div class="deploy-card">
                     <div class="card-header">
-                        <h3 class="features">Apps Modernization</h3>
+                        <h3 class="features"><span class="green-clr">AppMod</span>-as-<span
+                                class="green-clr">Service</span></h3>
                     </div>
                     <div class="card-body">
                         <ul>
                             <li class="srv-desc">
-                                <a>Move from Monolith to Microservices</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Disposition Analysis
+                                    </label>
+                                </div>
                             </li>
                             <li class="srv-desc">
-                                <a>Deploy microservices at scale</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck2">
+                                    <label class="form-check-label" for="gridCheck2">
+                                        Git Branch
+                                    </label>
+                                </div>
                             </li>
                             <li class="srv-desc">
-                                <a>Integration with API gateway</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck3">
+                                    <label class="form-check-label" for="gridCheck3">
+                                        Boilerplate SpringBoot Code
+                                    </label>
+                                </div>
                             </li>
                             <li class="srv-desc">
-                                <a>Helps in higher deployment frequency</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck4">
+                                    <label class="form-check-label" for="gridCheck4">
+                                        JPA, Actuator, Devtools
+                                    </label>
+                                </div>
                             </li>
                             <li class="srv-desc">
-                                <a>Build highly resilient applications</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck6">
+                                    <label class="form-check-label" for="gridCheck6">
+                                        Docker Files
+                                    </label>
+                                </div>
                             </li>
                             <li class="srv-desc">
-                                <a>Anytime roll-back options enabled</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck7">
+                                    <label class="form-check-label" for="gridCheck7">
+                                        MySQL JDBC
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck8">
+                                    <label class="form-check-label" for="gridCheck8">
+                                        KongAPI Gateway
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck9">
+                                    <label class="form-check-label" for="gridCheck9">
+                                        JFrog Artifactory
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck10">
+                                    <label class="form-check-label" for="gridCheck10">
+                                        MicroFocus Quality Center
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck11">
+                                    <label class="form-check-label" for="gridCheck11">
+                                        Selenium
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck11">
+                                    <label class="form-check-label" for="gridCheck11">
+                                        RedHat Clair
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck11">
+                                    <label class="form-check-label" for="gridCheck11">
+                                        Hashicorp Vault
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck11">
+                                    <label class="form-check-label" for="gridCheck11">
+                                        Jagger Ingress
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck12">
+                                    <label class="form-check-label" for="gridCheck12">
+                                        AppDynamics Monitoring
+                                    </label>
+                                </div>
                             </li>
                         </ul>
                         <div class="button">
-                            <button type="button" class="btn btn-success btn-md" style="margin-top: 30px;">Read
-                                More</button>
+                            <button type="button" class="btn btn-success btn-md" style="margin-top: 30px;">Click-to-Deploy</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-12">
-                <div class="card">
+            <div class="col-lg-4 col-sm-12 deploy-card-body">
+                <div class="deploy-card">
                     <div class="card-header">
-                        <h3 class="features">BigData Platforms</h3>
+                        <h3 class="features"><span class="green-clr">BigData</span>-as-<span
+                                class="green-clr">Service</span></h3>
                     </div>
                     <div class="card-body">
                         <ul>
                             <li class="srv-desc">
-                                <a>Build an Enterprise grade BigData stack</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Hadoop HDFS
+                                    </label>
+                                </div>
                             </li>
                             <li class="srv-desc">
-                                <a>100% opensource architecture approach</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck2">
+                                    <label class="form-check-label" for="gridCheck2">
+                                        TensorFlow
+                                    </label>
+                                </div>
                             </li>
                             <li class="srv-desc">
-                                <a>Integration with Storage stack for Hadoop</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck3">
+                                    <label class="form-check-label" for="gridCheck3">
+                                        Apache Spark
+                                    </label>
+                                </div>
                             </li>
                             <li class="srv-desc">
-                                <a>SSO, ActiveDirectory & LDAP enabled</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck4">
+                                    <label class="form-check-label" for="gridCheck4">
+                                        Confluent Kafka
+                                    </label>
+                                </div>
                             </li>
                             <li class="srv-desc">
-                                <a>Works with Spark, Scala, Tensorflow, Hive & Python</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck6">
+                                    <label class="form-check-label" for="gridCheck6">
+                                        Anaconda Package
+                                    </label>
+                                </div>
                             </li>
                             <li class="srv-desc">
-                                <a>Availablity & Performance dashboards</a>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck7">
+                                    <label class="form-check-label" for="gridCheck7">
+                                        Hive
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck9">
+                                    <label class="form-check-label" for="gridCheck9">
+                                        HDP Ambari
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck9">
+                                    <label class="form-check-label" for="gridCheck9">
+                                        Cloudera
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck9">
+                                    <label class="form-check-label" for="gridCheck9">
+                                        Google BigQuery
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck8">
+                                    <label class="form-check-label" for="gridCheck8">
+                                        KongAPI Gateway
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck9">
+                                    <label class="form-check-label" for="gridCheck9">
+                                        Greenplum
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck10">
+                                    <label class="form-check-label" for="gridCheck10">
+                                        SpringXD
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck11">
+                                    <label class="form-check-label" for="gridCheck11">
+                                        Elastic Search
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck12">
+                                    <label class="form-check-label" for="gridCheck12">
+                                        Splunk Monitoring
+                                    </label>
+                                </div>
                             </li>
                         </ul>
                         <div class="button">
-                            <button type="button" class="btn btn-success btn-md" style="margin-top: 30px;">Read
-                                More</button>
+                            <button type="button" class="btn btn-success btn-md" style="margin-top: 30px;">Click-to-Deploy</button>
                         </div>
                     </div>
                 </div>
