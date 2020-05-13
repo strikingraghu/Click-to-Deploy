@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Click-to-Deploy</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ee4c836a7d.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Bootsnipp -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <section id="title">
+        <div class="container-fluid">
+            <!-- Just an image -->
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <span class="navbar-brand mb-0 h1"><span class="green-clr">Click</span>-to-<span
+                            class="green-clr">Deploy</span>
+                        <small>Digital Business Platform</small></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="#navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-item nav-link active" href="#Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link active" href="#Technology">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link active" href="#Approaches">Approach</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link active" href="#CustTest">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link active" href="#OurPlans">Plans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link active" href="#ContactUsAnytime">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <h3 class="form-purpose">
+            Just fill the form & deploy the stack, <span class="green-clr">it's that simple</span>.
+        </h3>
+    </section>
+    <div>
+        <img class="logo-new" src="images/Kuberenetes.jpg" alt="k8s">
+        <img class="logo-new" src="images/GitHubNew.jpg" alt="git">
+        <img class="logo-new" src="images/SpringNew.jpg" alt="spring">
+        <img class="logo-new" src="images/GCPNew.jpg" alt="spring">
+        <img class="logo-new" src="images/DockerNew.jpg" alt="docker">
+        <img class="logo-new" src="images/AWSNew.jpg" alt="aws">
+        <img class="logo-new" src="images/TerraformNew.jpg" alt="terraform">
+        <img class="logo-new" src="images/AzureNew.jpg" alt="azure">
+        <img class="logo-new" src="images/F5New.jpg" alt="f5">
+    </div>
+    <hr class="linebreak1">
+    <section class="form-page">
+        <form class="form-fields">
+            <div class="form-row">
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer01">First Name</label>
+                    <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First Name"
+                        required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer02">Last Name</label>
+                    <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last Name"
+                        required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationServerUsername">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                        </div>
+                        <input type="text" class="form-control is-valid" id="validationServerUsername"
+                            placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+                        <div class="valid-feedback">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationServerUsername">Password</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend4">*</span>
+                        </div>
+                        <input type="password" class="form-control is-valid" id="validationServerPassword"
+                            placeholder="Password" aria-describedby="inputGroupPrepend4" required>
+                        <div class="valid-feedback">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer03">City</label>
+                    <input type="text" class="form-control is-valid" id="validationServer03" placeholder="City"
+                        required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer04">State</label>
+                    <input type="text" class="form-control is-valid" id="validationServer04" placeholder="State"
+                        required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer05">Zip</label>
+                    <input type="text" class="form-control is-valid" id="validationServer05" placeholder="Zip" required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer05">Country</label>
+                    <input type="text" class="form-control is-valid" id="validationServer06" placeholder="Country"
+                        required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer03">Organization</label>
+                    <input type="text" class="form-control is-valid" id="validationServer07" placeholder="Organization"
+                        required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer04">Organization ID</label>
+                    <input type="password" class="form-control is-valid" id="validationServer08"
+                        placeholder="Organization ID" required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer05">Organization Token</label>
+                    <input type="password" class="form-control is-valid" id="validationServer09"
+                        placeholder="Organization Token" required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer05">One-Time Password</label>
+                    <input type="password" class="form-control is-valid" id="validationServer10"
+                        placeholder="One-Time Password" required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="try-services">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="features">Infrastructure-as-Code</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Terraform Plans
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck2">
+                                    <label class="form-check-label" for="gridCheck2">
+                                        Jenkins/Spinnaker Pipeline
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck3">
+                                    <label class="form-check-label" for="gridCheck3">
+                                        Ansible Playbooks
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck4">
+                                    <label class="form-check-label" for="gridCheck4">
+                                        VMware/Openstack Instances
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck6">
+                                    <label class="form-check-label" for="gridCheck6">
+                                        Install & Configure Docker
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck7">
+                                    <label class="form-check-label" for="gridCheck7">
+                                        Install & Configure Kubernetes
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck8">
+                                    <label class="form-check-label" for="gridCheck8">
+                                        Deploy MySql/RabbitMQ Images
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck9">
+                                    <label class="form-check-label" for="gridCheck9">
+                                        Build & Package Code
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck10">
+                                    <label class="form-check-label" for="gridCheck10">
+                                        Verify Code Quality
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck11">
+                                    <label class="form-check-label" for="gridCheck11">
+                                        Deploy SpringBoot Microservices
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="srv-desc">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck12">
+                                    <label class="form-check-label" for="gridCheck12">
+                                        Enable Monitoring
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="button">
+                            <button type="button" class="btn btn-success btn-md" style="margin-top: 30px;">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="features">Apps Modernization</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li class="srv-desc">
+                                <a>Move from Monolith to Microservices</a>
+                            </li>
+                            <li class="srv-desc">
+                                <a>Deploy microservices at scale</a>
+                            </li>
+                            <li class="srv-desc">
+                                <a>Integration with API gateway</a>
+                            </li>
+                            <li class="srv-desc">
+                                <a>Helps in higher deployment frequency</a>
+                            </li>
+                            <li class="srv-desc">
+                                <a>Build highly resilient applications</a>
+                            </li>
+                            <li class="srv-desc">
+                                <a>Anytime roll-back options enabled</a>
+                            </li>
+                        </ul>
+                        <div class="button">
+                            <button type="button" class="btn btn-success btn-md" style="margin-top: 30px;">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="features">BigData Platforms</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li class="srv-desc">
+                                <a>Build an Enterprise grade BigData stack</a>
+                            </li>
+                            <li class="srv-desc">
+                                <a>100% opensource architecture approach</a>
+                            </li>
+                            <li class="srv-desc">
+                                <a>Integration with Storage stack for Hadoop</a>
+                            </li>
+                            <li class="srv-desc">
+                                <a>SSO, ActiveDirectory & LDAP enabled</a>
+                            </li>
+                            <li class="srv-desc">
+                                <a>Works with Spark, Scala, Tensorflow, Hive & Python</a>
+                            </li>
+                            <li class="srv-desc">
+                                <a>Availablity & Performance dashboards</a>
+                            </li>
+                        </ul>
+                        <div class="button">
+                            <button type="button" class="btn btn-success btn-md" style="margin-top: 30px;">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ContactUsAnytime" class="contactdiv">
+        <div class="row">
+            <div class="col col-lg-6">
+                <h2 class="contactinfo">
+                    Transform Your <span class="green-clr">Enterprise.</span>
+                </h2>
+                <h3 class="contactdetails">
+                    Talk to an expert about how our Platform meets your business needs.
+                </h3>
+            </div>
+            <div class="col col-lg-6">
+                <h3>
+                    <button type="button" class="btn btn-outline-success btn-lg contactbutton">Work With Us</button>
+                </h3>
+            </div>
+            <div class="col col-lg">
+                <h3 class="contactdetails">
+                    Get in Touch - support@lifecycle.com | © 2020 Lifecycle, Inc. All rights reserved.
+                </h3>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

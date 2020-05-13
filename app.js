@@ -13,3 +13,7 @@ app.listen(3000, function(req, res) {
 app.get("/", function(req, res) {
     res.sendFile(__dirname + "/index.html");
 })
+
+app.get("/form.html", function(req, res) {
+    res.sendFile(__dirname + "/form.html");
+})
